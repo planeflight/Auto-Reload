@@ -1,0 +1,5 @@
+{
+    "command": "node app.js",
+    "file_endings": [".js", ".py", ".json"],
+    "exclude": ["node_modules"]
+}
