@@ -46,6 +46,7 @@ def check_files(file_to_date : Dict, process : subprocess.Popen, run_cmd: str) -
                     process.kill()
                     process = run_process(run_cmd)
         except KeyboardInterrupt:
+            process.kill()
             print("ARD: AUTO-RELOAD Stopped")
             return
 
